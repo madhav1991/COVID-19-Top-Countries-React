@@ -1,0 +1,36 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css');
+
+.App {
+  text-align: center;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-top: 5rem;
+}
+
+.accordion:nth-child(odd){
+  background: khaki;
+}
+
+.accordion-icon {
+  padding: 10rem;
+}
+
+.refresh {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .layout {
+      width: 100%;
+  }
+}
+
+
